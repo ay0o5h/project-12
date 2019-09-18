@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0
+}
+$mainfont: 'Times New Roman', Times, serif;
+$secondfont:fantasy;
+$maincolor :#5298c1;
+$secondcolor :aliceblue;
+.textwithshadow {
+    text-shadow : 2px 2px black;
+    font-family:$secondfont;
+    text-transform: capitalize;
+}
+.p {
+    font-family: $mainfont;
+    text-transform: capitalize;
+}
+/* start slider*/
+.slider {
+    img {
+        height: 500px;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: #f8f9fa;
+    }
+    .active {
+        border: 2px solid #5298c1;
+        border-radius :3px;
+    }
+    .navbar-nav {
+        margin-left:50%;
+    }
+    .navbar-brand {
+       @extend .textwithshadow;
+       font-size:30px;
+       }
+       li a {
+        @extend .textwithshadow
+       }
+    .navbarr .carousel-caption {
+        position: absolute;
+        bottom: 75%;                
+    }
+    .carousel-item .carousel-caption {
+        text-align: left;
+        bottom: 30%;
+    }
+    h3 {
+        @extend .textwithshadow;
+        margin-top: 30px;
+    }
+    p {
+        font-family: $mainfont;
+    }
+    nav {
+        border-bottom: 2px solid white;
+    }
+}
+/* end slider*/
+/* start part2*/
+.part2 {
+    background-color: black;
+    padding: 10px;
+    h3 {
+        @extend .textwithshadow;
+        color:$maincolor;
+    }
+    p {
+        @extend .p;
+        color: $secondcolor;
+    }
+}
+/* end part2*/
+/* start icons*/
+.icons {
+    margin-top: 5%;
+    .row {
+        margin-right: 0;
+    }
+    h3 {
+        @extend .textwithshadow;
+        cursor: pointer;
+        color: $maincolor;
+    }
+    p {
+        @extend .p;
+    }
+    i {
+        color: $secondcolor;
+        background-color: $maincolor;
+        font-size: 50px;
+        border-radius: 50px;
+        padding: 3%;
+        cursor: pointer;
+    }
+}
+/* end icons*/
+/* start team*/ 
+.team {
+    margin-top: 5%;
+    .row {
+        margin-right: 0;
+        margin-top: 5%;
+    }
+    h3 {
+        @extend .textwithshadow;
+        cursor: pointer;
+        color: $maincolor;
+    }
+    p {
+        @extend .p;
+    }
+    .teams {
+        img {
+            border-radius: 100px;
+        }
+    }
+}
+/* end team*/ 
+/* start video*/ 
+.video {
+    background-color: black;
+    margin-top: 5%;
+    padding: 6%;
+    .row {
+        margin-right: 0;
+        margin-top: 3%;
+    }
+    embed {
+        height: 400px;
+        width: 300px;
+    }
+    h3 {
+        @extend .textwithshadow;
+        color: $secondcolor
+    }
+    p {
+        @extend .p;
+        color: $secondcolor;
+        margin-top: 3%;
+    }
+    .btn {
+        margin-top: 3%;
+    }
+}
+/* end video*/
+/* start  layouts*/  
+.layouts {
+    margin-top: 5%;
+    .row {
+        margin-right: 0;
+        margin-top: 3%;
+    }
+    h3 {
+        @extend .textwithshadow;
+        color: $maincolor
+    }
+    p {
+        @extend .p;
+    }
+    h4 {
+        @extend .textwithshadow;
+        color: $maincolor;
+        font-size: 40px
+    }
+    h5 {
+        @extend .textwithshadow;
+        font-size: 40px;
+    }
+}
+/* end layouts*/ 
+/* start  footer*/ 
+.footer {
+    margin-top: 5%;
+    background-color: black;
+    .row {
+        margin-right: 0;
+        margin-top: 3%;
+    }
+    h3 {
+        @extend .textwithshadow;
+        color: $maincolor
+    }
+    p {
+        @extend .p;
+        color: $secondcolor;
+    }
+    i {
+        font-size: 30px;
+        border-radius:30px;
+        color :$secondcolor;
+        background-color: $maincolor;
+        padding: 5px;
+    }
+}
+/* end footer*/
+/* start  copy*/
+.copy {
+    background-color: $maincolor;
+    color: $secondcolor;
+    padding: 1%;
+    p {
+        @extend .p;
+    }
+}
+/* end copy*/

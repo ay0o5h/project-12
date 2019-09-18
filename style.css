@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.textwithshadow, .slider .navbar-brand, .slider li a, .slider h3, .part2 h3, .icons h3, .team h3, .video h3, .layouts h3, .layouts h4, .layouts h5, .footer h3 {
+  text-shadow: 2px 2px black;
+  font-family: fantasy;
+  text-transform: capitalize;
+}
+
+.p, .part2 p, .icons p, .team p, .video p, .layouts p, .footer p, .copy p {
+  font-family: "Times New Roman", Times, serif;
+  text-transform: capitalize;
+}
+
+/* start slider*/
+.slider img {
+  height: 500px;
+}
+
+.slider .navbar-dark .navbar-nav .nav-link {
+  color: #f8f9fa;
+}
+
+.slider .active {
+  border: 2px solid #5298c1;
+  border-radius: 3px;
+}
+
+.slider .navbar-nav {
+  margin-left: 50%;
+}
+
+.slider .navbar-brand {
+  font-size: 30px;
+}
+
+.slider .navbarr .carousel-caption {
+  position: absolute;
+  bottom: 75%;
+}
+
+.slider .carousel-item .carousel-caption {
+  text-align: left;
+  bottom: 30%;
+}
+
+.slider h3 {
+  margin-top: 30px;
+}
+
+.slider p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.slider nav {
+  border-bottom: 2px solid white;
+}
+
+/* end slider*/
+/* start part2*/
+.part2 {
+  background-color: black;
+  padding: 10px;
+}
+
+.part2 h3 {
+  color: #5298c1;
+}
+
+.part2 p {
+  color: aliceblue;
+}
+
+/* end part2*/
+/* start icons*/
+.icons {
+  margin-top: 5%;
+}
+
+.icons .row {
+  margin-right: 0;
+}
+
+.icons h3 {
+  cursor: pointer;
+  color: #5298c1;
+}
+
+.icons i {
+  color: aliceblue;
+  background-color: #5298c1;
+  font-size: 50px;
+  border-radius: 50px;
+  padding: 3%;
+  cursor: pointer;
+}
+
+/* end icons*/
+/* start team*/
+.team {
+  margin-top: 5%;
+}
+
+.team .row {
+  margin-right: 0;
+  margin-top: 5%;
+}
+
+.team h3 {
+  cursor: pointer;
+  color: #5298c1;
+}
+
+.team .teams img {
+  border-radius: 100px;
+}
+
+/* end team*/
+/* start video*/
+.video {
+  background-color: black;
+  margin-top: 5%;
+  padding: 6%;
+}
+
+.video .row {
+  margin-right: 0;
+  margin-top: 3%;
+}
+
+.video embed {
+  height: 400px;
+  width: 300px;
+}
+
+.video h3 {
+  color: aliceblue;
+}
+
+.video p {
+  color: aliceblue;
+  margin-top: 3%;
+}
+
+.video .btn {
+  margin-top: 3%;
+}
+
+/* end video*/
+/* start  layouts*/
+.layouts {
+  margin-top: 5%;
+}
+
+.layouts .row {
+  margin-right: 0;
+  margin-top: 3%;
+}
+
+.layouts h3 {
+  color: #5298c1;
+}
+
+.layouts h4 {
+  color: #5298c1;
+  font-size: 40px;
+}
+
+.layouts h5 {
+  font-size: 40px;
+}
+
+/* end layouts*/
+/* start  footer*/
+.footer {
+  margin-top: 5%;
+  background-color: black;
+}
+
+.footer .row {
+  margin-right: 0;
+  margin-top: 3%;
+}
+
+.footer h3 {
+  color: #5298c1;
+}
+
+.footer p {
+  color: aliceblue;
+}
+
+.footer i {
+  font-size: 30px;
+  border-radius: 30px;
+  color: aliceblue;
+  background-color: #5298c1;
+  padding: 5px;
+}
+
+/* end footer*/
+/* start  copy*/
+.copy {
+  background-color: #5298c1;
+  color: aliceblue;
+  padding: 1%;
+}
+
+/* end copy*/
+/*# sourceMappingURL=style.css.map */
